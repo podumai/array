@@ -8,7 +8,7 @@
 namespace memory
 {
 
-  template<typename T, std::size_t init_size>
+  template<class T, std::size_t init_size>
   class array
   {
     using size_type  = std::size_t;
@@ -28,6 +28,7 @@ namespace memory
       for (auto begin {list.begin()}, end {list.end()}; begin != end; ++begin)
         m_storage[current_size++] = *begin;
     }
+
     size_type size() const noexcept { return init_size; }
 
     size_type max_size() const noexcept { return init_size; }

@@ -1,3 +1,0 @@
-/home/podumai/array/CMakeFiles/TEST.dir
-/home/podumai/array/CMakeFiles/edit_cache.dir
-/home/podumai/array/CMakeFiles/rebuild_cache.dir
